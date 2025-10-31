@@ -8,6 +8,10 @@ plugins {
 group = 'com.matillion'
 description = 'Matillion Tech Test'
 
+springBoot {
+    mainClass = 'com.matillion.techtest2025.DataAnalysisApplication'
+}
+
 java {
 	toolchain {
 		languageVersion = JavaLanguageVersion.of(21)
