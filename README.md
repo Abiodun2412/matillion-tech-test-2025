@@ -81,6 +81,13 @@ Think creatively and propose a new piece of functionality that would enhance thi
 
 ## API Endpoints
 
+### New (Part 3)
+- `GET /api/analysis/{id}/profile` — returns inferred column types and numeric stats
+
+📘 You can also read my personal Part 3 feature design and implementation notes here:
+[Part3Personal.md](docs/Part3Personal.md)
+
+
 ### Data Analysis
 - `POST /api/analysis/ingestCsv` - Ingest and analyze CSV data
 - `GET /api/analysis/{id}` - Retrieve a previously analyzed CSV by ID (Part 2)
